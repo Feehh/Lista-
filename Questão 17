@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 17</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
+
+      var num;
+      window.alert("17-Solicitar a digitação de um valor positivo. Após a digitação, exibir a tabuada do valor solicitado, no intervalo de um a dez..");
+
+      num = window.prompt("Digite um valor positivo: ");
+
+      for(var count=1; count<=10 ; count++)
+      document.write(num +" x "+ count +" = " + (num*count) + "<br />");
+      
+      </script>
+  </body>
+</html>
