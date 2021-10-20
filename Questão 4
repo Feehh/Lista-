@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <script language="javascript">
+      
+      var base, altura, resultado;
+       window.alert("4-A partir dos valores da base e altura de um triângulo, calcular e exibir sua área..");
+      base = window.prompt("Digite o valor da base do triângulo");
+      altura = window.prompt("Digite o valor da altura do triângulo");
+      resultado = (base * altura) / 2;
+       window.alert("4- A área do triângulo é " + resultado);
+      document.write("4- A área do triângulo é " + resultado + "<br>");
+
+     </script>
+  </body>
+</html>
