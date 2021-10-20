@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <script language="javascript">
+     
+      var area, resultado;
+      window.alert("3-Calcular e exibir a área de um quadrado a partir do valor de sua diagonal que será digitado...");
+      area = window.prompt("Digite a área do quadrado");
+      
+      resultado = area * area;
+
+      window.alert("3- A área do quadrado é " + resultado/2);
+      document.write("3- A área do quadrado é " + resultado/2 + "<br>");  
+
+    </script>
+  </body>
+</html>
