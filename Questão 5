@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 5</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
+
+      var n1, n2, n3, n4, resultado;
+       window.alert("5-Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados..");
+      n1 = +window.prompt("Digite o 1° valor");
+      n2 = +window.prompt("Digite o 2° valor");
+      n3 = +window.prompt("Digite o 3° valor");
+      n4 = +window.prompt("Digite o 4° valor");
+      resultado = n1 + n2 + n3 + n4;
+       window.alert("5- A média aritmética é " + resultado/4);
+      document.write("5- A média aritmética é " + resultado/4 + "<br>");
+
+      </script>
+  </body>
+</html>
