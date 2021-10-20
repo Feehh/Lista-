@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 9</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <script src="script.js"></script>
+    <script language="javascript">
+
+      var n1, n2, resultado;
+       window.alert("9-Solicitar a digitação de dois valores distintos. Exibir o maior deles..");
+      n1 = window.prompt("Digite o 1° valor");
+      n2 = window.prompt("Digite o 2° valor");
+      resultado = Math.max(n1, n2);
+       window.alert("9- O maior valor é " + resultado);
+      document.write("9- O maior valor é " + resultado + "<br>");
+
+      </script>
+  </body>
+</html>
