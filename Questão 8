@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 8</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <script language="javascript">
 
+     var C, resultado;
+       window.alert("8-Solicitar a digitação do valor de uma temperatura em graus Celsius, calcular e exibir sua temperatura equivalente em Fahrenheit..");
+      C = window.prompt("Digite a temperatura em Celsius");
+      resultado = C * (9 / 5) + 32;
+       window.alert("8- A temperatura em Fahrenheit é " + resultado + "°F");
+      document.write("8- A temperatura em Fahrenheit é " + resultado + "°F" + "<br>");
+
+      </script>
+  </body>
+</html>
