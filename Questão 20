@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 20</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
+      
+        var fib = [0, 1];
+      window.alert("20- Exibir os trinta primeiros valores da série de Fibonacci. A série: 1, 1, 2, 3, 5, 8, ..");
+      for(var i=fib.length; i<30; i++) {
+      fib[i] = fib[i-2] + fib[i-1];
+     }
+     window.alert(fib);
+      document.write(fib); 
+
+      </script>
+  </body>
+</html>
