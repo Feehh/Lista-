@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 19</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <script src="script.js"></script>
+    <script language="javascript">
+      var ini, soma;
+      window.alert("19-Exibir a soma dos números inteiros positivos do intervalo de um a cem...");
+
+      soma=0;
+	    for ( ini= 1; ini<=100; ++ini ) 
+      {
+    soma = soma + ini;		
+  }
+    window.alert("a soma dos numeros é: " + soma);
+  
+      </script>
+  </body>
+</html>
