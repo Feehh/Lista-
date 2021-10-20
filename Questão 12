@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 12</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
+
+      var peso, altura, altura2, resultado;
+       window.alert("12-  Solicitar a digitação do peso e da altura de uma determinada pessoa. Após a digitação, exibir se esta pessoa está ou não com seu peso ideal. Veja tabela da relação peso/altura²..");
+      peso = window.prompt("Digite o peso");
+      altura = window.prompt("Digite a altura");
+      altura2 = (altura * altura)
+      resultado =  peso / altura2;
+
+      if(resultado < 20)
+      {
+       window.alert("12- Você está abaixo do peso ");
+      document.write("12-  Você está abaixo do peso <br>");
+      }
+      else if(resultado > 20 & resultado < 25)
+      {
+       window.alert("12- Você está no peso ideal ");
+      document.write("12-  Você está no peso ideal <br>");
+      }
+      else if(resultado > 25)
+      {
+       window.alert("12- Você está acima do peso ");
+      document.write("12-  Você está acima do peso  <br>");
+      }
+
+      </script>
+  </body>
+</html>
