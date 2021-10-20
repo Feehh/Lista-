@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 11</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
+
+     var n1, n2, resultado;
+       window.alert("11-Uma escola com cursos em regime semestral, realiza duas avaliações durante o semestre e calcula a média do aluno. Solicitar a digitação dos valores das notas (P1 e P2) e calcular a média. Exibir a situação final do aluno (“Aprovado ou Reprovado”), sabendo que a média de aprovação é igual a seis..");
+      n1 = +window.prompt("Digite o 1° valor");
+      n2 = +window.prompt("Digite o 2° valor");
+      resultado = (n1 + n2)/3;
+
+      if(resultado >= 6){
+       window.alert("11- Você foi aprovado!");
+        document.write("11- Você foi aprovado!");
+      }
+      else {
+       window.alert("11- Você foi reprovado!");
+        document.write("11- Você foi reprovado!");
+      }
+
+      </script>
+  </body>
+</html>
