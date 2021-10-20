@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 14</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <script language="javascript">
+
+      var valor1, valor2, valor3, resultado;
+       window.alert("14- Verificar se três valores quaisquer (A, B, C) que serão digitados formam ou não um triângulo retângulo. Lembre-se que o quadrado da hipotenusa é igual a soma dos quadrados dos catetos..");
+      valor1 = window.prompt("Digite o 1° valor");
+      valor2 = window.prompt("Digite o 2° valor");
+      valor3 = window.prompt("Digite o 3° valor");
+
+      if(valor1 * valor1 == valor2 * valor2 + valor3 * valor3 | valor2 * valor2 == valor1 * valor1 + valor3 * valor3 | valor3 * valor3 == valor1 * valor1 + valor2 * valor2)
+      {
+       window.alert("14- Você formou um triangulo retangulo ");
+       document.write("14- Você formou um triangulo retangulo");
+      }
+      
+      else{ 
+       window.alert("14- Você não formou um triangulo retangulo");
+        document.write("14- Você não formou um triangulo retangulo");
+     }
+
+      </script>
+  </body>
+</html>
