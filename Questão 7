@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Questão 7</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <script src="script.js"></script>
+    <script language="javascript">
 
+       var milhas, resultado;
+       window.alert("7-Sabendo que uma milha marítima equivale a um mil, oitocentos e cinquenta e dois metros e que um quilômetro possui mil metros, fazer um programa para converter milhas marítimas em quilômetros..");
+      milhas = window.prompt("Digite o valor em milhas marítimas");
+      
+      resultado = milhas * (1852)
+
+       window.alert("7- O valor em km é " + resultado/1000 + " km");
+      document.write("7- O valor em km é " + resultado/1000 + " km" + "<br>");
+
+      </script>
+  </body>
+</html>
